@@ -4,7 +4,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
   
-    #sol is the inverse of the matrix
+    ##sol is the inverse of the matrix
     sol <- NULL
     set <- function(y){
       x <<- y
